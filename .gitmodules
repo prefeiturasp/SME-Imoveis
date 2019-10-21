@@ -1,6 +1,6 @@
 [submodule "FrontEnd"]
 	path = FrontEnd
-	url = git@github.com:prefeiturasp/SME-Imoveis-FrontEnd.git
+	url = https://github.com/prefeiturasp/SME-Imoveis-FrontEnd.git
 [submodule "BackEnd"]
 	path = BackEnd
-	url = git@github.com:prefeiturasp/SME-Imoveis-BackEnd.git
+	url = https://github.com/prefeiturasp/SME-Imoveis-BackEnd.git
