@@ -3,7 +3,7 @@
 
 echo "Atualiza submodulos "
 git pull
-git submodule update --recursive --remote
+git submodule update --recursive
 
 echo "Recostruindo imagens dockers"
 docker-compose up -d --build
