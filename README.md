@@ -120,6 +120,16 @@ O Cadastro de Ofertas de Imóveis é um portal que busca facilitar o processo de
 
 São Paulo, como os outros municípios brasileiros, tem um grande desafio com relação à universalização das vagas de creche. Isso acontece principalmente em bairros periféricos da cidade e encontrar imóveis para aluguel costumava ser um processo trabalhoso e complexo. Com o Portal do Cadastro de Oferta de Imóveis, é possível levantar a lista de imóveis e as melhores ofertas nos bairros que mais necessitam destes equipamentos.
 
+# Comunicação:
+
+| Canal de comunicação | Objetivos |
+|----------------------|-----------|
+| [Issues do Github](https://github.com/prefeiturasp/SME-Imoveis/issues) | - Sugestão de novas funcionalidades<br> - Reportar bugs<br> - Discussões técnicas |
+
+# Como contribuir
+
+Contribuições são **super bem vindas**! Se você tem vontade de construir o Portal Cadastro de Oferta de Imóveis conosco, veja o nosso [guia de contribuição](./CONTRIBUTING.md) onde explicamos detalhadamente como trabalhamos e de que formas você pode nos ajudar a alcançar nossos objetivos. Lembrando que todos devem seguir  nosso [código de conduta](./CODEOFCONDUCT.md).
+
 # Configuração
 
 1. Na pasta principal, copiar o conteudo do arquivo `env.sample` para o arquivo `.env`
