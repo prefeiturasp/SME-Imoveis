@@ -67,10 +67,12 @@ O Cadastro de Ofertas de Imóveis é um portal que busca facilitar o processo de
 
 ## Personas
 
-**Quem:** locadores e representantes  
+### Locadores e representantes
+
 **Necessidades:** alugar imóvel próprio ou de terceiros e ter o imóvel alugado por um período longo e para um inquilino que seja bom pagador e não deprecie o bem
 
-**Quem:** servidores da SME 
+### Servidores da SME 
+
 **Necessidades:** encontrar imóveis em condições mínimas para instalação de CEIs, principalmente em bairros com maior necessidade por creches e encontrar facilmente imóveis adequados e nos bairros desejados
 
 ## Funcionalidades
@@ -94,7 +96,7 @@ O Cadastro de Ofertas de Imóveis é um portal que busca facilitar o processo de
 - Criação de área para gestão dos cadastros
 - Criação de paineis gerenciais
 
-# Sobre o Time:
+# Sobre o Time
 
 | Papel | Titular | Suplente
 
@@ -116,11 +118,17 @@ O Cadastro de Ofertas de Imóveis é um portal que busca facilitar o processo de
 
 # Como surgiu
 
-## Fase de Descoberta:
+## Fase de Descoberta
 
 São Paulo, como os outros municípios brasileiros, tem um grande desafio com relação à universalização das vagas de creche. Isso acontece principalmente em bairros periféricos da cidade e encontrar imóveis para aluguel costumava ser um processo trabalhoso e complexo. Com o Portal do Cadastro de Oferta de Imóveis, é possível levantar a lista de imóveis e as melhores ofertas nos bairros que mais necessitam destes equipamentos.
 
-# Comunicação:
+**Criação da solução da segunda versão da plataforma:** [pode ser lida aqui](https://github.com/prefeiturasp/SME-Imoveis/blob/master/Cadastro%20de%20Imo%CC%81veis%20-%20Versa%CC%83o%202.pdf)
+
+**Protótipo da segunda versão da plataforma:** [pode ser visto aqui](https://www.figma.com/file/ceLG5tRTxpTbDep41JVqn9/Oficina-Im%C3%B3veis?node-id=0%3A1)
+
+
+
+# Comunicação
 
 | Canal de comunicação | Objetivos |
 |----------------------|-----------|
