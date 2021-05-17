@@ -72,12 +72,12 @@ O Cadastro de Ofertas de Imóveis é um portal que busca facilitar o processo de
 - Área para cidadão realizar acompanhamento do status do cadastro realizado
 - Área administrativa com:
 
-> Painel de notificações com visualização macro de todos os cadastros realizados e respectivos status
-> Página detalhada de cadastro, com visualização automática de demanda, georreferenciamento, possibilidade de edição, atualização de status, download/upload de relatórios COMAPRE
-> Filtros para facilitar busca de cadastros no sistema e exportação do cadastro com links anexados para Excel
-> Disparo automático de e-mails sempre que o status do cadastro for atualizado
-> Possibilidade de edição do formulário de cadastro no próprio sistema pelos servidores da SME
-> Visualização de relatórios e dashboars com informações gerenciais
+>> Painel de notificações com visualização macro de todos os cadastros realizados e respectivos status
+>> Página detalhada de cadastro, com visualização automática de demanda, georreferenciamento, possibilidade de edição, atualização de status, download/upload de relatórios COMAPRE
+>> Filtros para facilitar busca de cadastros no sistema e exportação do cadastro com links anexados para Excel
+>> Disparo automático de e-mails sempre que o status do cadastro for atualizado
+>> Possibilidade de edição do formulário de cadastro no próprio sistema pelos servidores da SME
+>> Visualização de relatórios e dashboars com informações gerenciais
 
 ## Jornadas
 
@@ -97,15 +97,13 @@ O Cadastro de Ofertas de Imóveis é um portal que busca facilitar o processo de
 
 | Papel | Titular | Suplente
 
-|--|--|--|
-
 | Product Owner | Luiz Faria | Luciana Ferreira |
 
 | Agente de Governança | Juliana Demay | | Vítor Ferragini |
 
 | Gerente de Projeto | Andrea Paiva |  |
 
-| Scrum Master | Augusto Silva | @ |
+| Scrum Master | Augusto Silva |  |
 
 | Analista UX/UI | Pamela Marsola |
 
