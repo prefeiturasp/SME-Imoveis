@@ -95,19 +95,47 @@ O Cadastro de Ofertas de Imóveis é um portal que busca facilitar o processo de
 
 # Sobre o Time
 
-| Papel | Titular | Suplente
-
-| Product Owner | Luiz Faria | Luciana Ferreira |
-
-| Agente de Governança | Juliana Demay | | Vítor Ferragini |
-
-| Gerente de Projeto | Andrea Paiva |  |
-
-| Scrum Master | Augusto Silva |  |
-
-| Analista UX/UI | Pamela Marsola |
-
-| Analista Programador | Rodolpho Lobo |  |
+<table>
+<thead>
+<tr>
+<th>Papel</th>
+<th>Titular</th>
+<th>Suplente</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Product Owner</td>
+<td>Luciana Ferreira</td>
+<td>Luiz Faria</td>
+</tr>
+<tr>
+<td>Agente de Governança</td>
+<td>Juliana Demay</td>
+<td>Vítor Ferragini</td>
+</tr>
+<tr>
+<td>Gerente de Projeto</td>
+<td>Andrea Paiva</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Scrum Master</td>
+<td>Augusto Silva</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Analista UX/UI</td>
+<td>Pamela Marsola</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Analista Programador</td>
+<td>Rodolpho Lobo</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
 
 # Como surgiu
 
