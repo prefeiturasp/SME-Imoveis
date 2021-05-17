@@ -72,12 +72,12 @@ O Cadastro de Ofertas de Imóveis é um portal que busca facilitar o processo de
 - Área para cidadão realizar acompanhamento do status do cadastro realizado
 - Área administrativa com:
 
->> Painel de notificações com visualização macro de todos os cadastros realizados e respectivos status
->> Página detalhada de cadastro, com visualização automática de demanda, georreferenciamento, possibilidade de edição, atualização de status, download/upload de relatórios COMAPRE
->> Filtros para facilitar busca de cadastros no sistema e exportação do cadastro com links anexados para Excel
->> Disparo automático de e-mails sempre que o status do cadastro for atualizado
->> Possibilidade de edição do formulário de cadastro no próprio sistema pelos servidores da SME
->> Visualização de relatórios e dashboars com informações gerenciais
+1. Painel de notificações com visualização macro de todos os cadastros realizados e respectivos status
+2. Página detalhada de cadastro, com visualização automática de demanda, georreferenciamento, possibilidade de edição, atualização de status, download/upload de relatórios COMAPRE
+3. Filtros para facilitar busca de cadastros no sistema e exportação do cadastro com links anexados para Excel
+4. Disparo automático de e-mails sempre que o status do cadastro for atualizado
+5. Possibilidade de edição do formulário de cadastro no próprio sistema pelos servidores da SME
+6. Visualização de relatórios e dashboars com informações gerenciais
 
 ## Jornadas
 
