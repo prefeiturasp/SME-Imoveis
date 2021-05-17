@@ -11,25 +11,16 @@ Com isso, pretendemos:
 
 O [Ateliê do Software](http://forum.govit.prefeitura.sp.gov.br/uploads/default/original/1X/c88a4715eb3f9fc3ceb882c1f6afe9e308805a17.pdf) é uma das ferramentas para operacionalização. Baseado em um modelo de contratação inspirado pelos movimentos ágil e de Software Craftsmanship, trabalhamos com equipes multidisciplinares para o desenvolvimento de produtos que beneficiam toda a comunidade escolar (técnicos da SME e DREs, gestores, professores, alunos e famílias) e concretizam os objetivos da Estratégia de Transformação Digital e Governo Aberto “Pátio Digital”.
 
-**Conteúdo:**
+# Conteúdo
 
-1. [Sobre o Produto](#sobre-o-produto)
-
-2. [Sobre o Time](#sobre-o-time)
-
-3. [Como surgiu](#como-surgiu)
-
-4. [Links Úteis](#links-úteis)
-
-5. [Comunicação](#comunicação)
-
-6. [Como contribuir](#como-contribuir)
-
-7. [Repositórios](#repositórios)
-
-8. [Documentações Auxiliares](#documentos-auxiliares)
-
-9. [Instalação e Configuração](#instalação-e-configuração)
+ 1. [Sobre o Produto](#Sobre-o-Produto)
+ 2. [Sobre o Time](#Sobre-o-Time)
+ 3. [Como surgiu](#Como-surgiu)
+ 4. [Links Úteis](#Links-Úteis)
+ 5. [Comunicação](#Comunicação)
+ 6. [Como contribuir](#como-contribuir)
+ 7. [Repositórios](#Repositórios)
+ 8. [Instalação e Configuração](#Instalação-e-Configuração)
 
 # Sobre o produto
 
@@ -57,7 +48,7 @@ O Cadastro de Ofertas de Imóveis é um portal que busca facilitar o processo de
 
 - Oferece orientações e formulário para cadastro de imóveis através de locadores ou representantes de imóveis
 
-- Indica a demanda atual do raio de até 2km de onde o imóvel está localizado
+- Apoia os servidores da SME na gestão dos cadastros realizados
 
 **O que não é/não faz**
 
@@ -73,13 +64,20 @@ O Cadastro de Ofertas de Imóveis é um portal que busca facilitar o processo de
 
 ### Servidores da SME 
 
-**Necessidades:** encontrar imóveis em condições mínimas para instalação de CEIs, principalmente em bairros com maior necessidade por creches e encontrar facilmente imóveis adequados e nos bairros desejados
+**Necessidades:** encontrar imóveis em condições mínimas para instalação de CEIs, principalmente em bairros com maior necessidade por creches e encontrar facilmente imóveis adequados e nos bairros desejados e realizar a gestão dos cadastros realizados
 
 ## Funcionalidades
 
-- Formulário de cadastro
+- Formulário de cadastro com validadores de informações (como IPTU) e facilidade de registro de endereço pelo CEP
+- Área para cidadão realizar acompanhamento do status do cadastro realizado
+- Área administrativa com:
 
-- Indicação da demanda atual do raio de até 2km de onde o imóvel está localizado
+> Painel de notificações com visualização macro de todos os cadastros realizados e respectivos status
+> Página detalhada de cadastro, com visualização automática de demanda, georreferenciamento, possibilidade de edição, atualização de status, download/upload de relatórios COMAPRE
+> Filtros para facilitar busca de cadastros no sistema e exportação do cadastro com links anexados para Excel
+> Disparo automático de e-mails sempre que o status do cadastro for atualizado
+> Possibilidade de edição do formulário de cadastro no próprio sistema pelos servidores da SME
+> Visualização de relatórios e dashboars com informações gerenciais
 
 ## Jornadas
 
@@ -93,8 +91,7 @@ O Cadastro de Ofertas de Imóveis é um portal que busca facilitar o processo de
 
 ## Roadmap
 
-- Criação de área para gestão dos cadastros
-- Criação de paineis gerenciais
+- Apromoramento de paineis gerenciais
 
 # Sobre o Time
 
@@ -104,17 +101,15 @@ O Cadastro de Ofertas de Imóveis é um portal que busca facilitar o processo de
 
 | Product Owner | Luiz Faria | Luciana Ferreira |
 
-| Agente de Governança | Gabriela Rowlands |
+| Agente de Governança | Juliana Demay | | Vítor Ferragini |
 
-| Gerente de Projeto | Andrea Paiva | @ |
+| Gerente de Projeto | Andrea Paiva |  |
 
 | Scrum Master | Augusto Silva | @ |
 
 | Analista UX/UI | Pamela Marsola |
 
-| Analista de Negócios | @ | @ |
-
-| Analista Programador | @Pedro | @Calvin |
+| Analista Programador | Rodolpho Lobo |  |
 
 # Como surgiu
 
@@ -122,11 +117,7 @@ O Cadastro de Ofertas de Imóveis é um portal que busca facilitar o processo de
 
 São Paulo, como os outros municípios brasileiros, tem um grande desafio com relação à universalização das vagas de creche. Isso acontece principalmente em bairros periféricos da cidade e encontrar imóveis para aluguel costumava ser um processo trabalhoso e complexo. Com o Portal do Cadastro de Oferta de Imóveis, é possível levantar a lista de imóveis e as melhores ofertas nos bairros que mais necessitam destes equipamentos.
 
-**Criação da solução da segunda versão da plataforma:** [pode ser lida aqui](https://github.com/prefeiturasp/SME-Imoveis/blob/master/Cadastro%20de%20Imo%CC%81veis%20-%20Versa%CC%83o%202.pdf)
-
-**Protótipo da segunda versão da plataforma:** [pode ser visto aqui](https://www.figma.com/file/ceLG5tRTxpTbDep41JVqn9/Oficina-Im%C3%B3veis?node-id=0%3A1)
-
-
+Depois de um ano de uso da versão 1.0 da plataforma, identificou-se a necessidade de criar uma série de incrementos na solução. Para isso, realizamos entrevistas com os servidores responsáveis pelos atendimentos ao público, criamos novos protótipos e realizamos oficinas para aprimoramentos da nova solução antes da fase de desenvolvimento. Além de melhorias de usabilidade na plataforma, a nova versão incluí toda a área de gestão de cadastros para os servidores.
 
 # Comunicação
 
