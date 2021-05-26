@@ -34,7 +34,7 @@ O **Cadastro de Oferta de Imóveis**
 
 É um **portal**
 
-Que **possibilita o cadastro de imóveis com requisitos mínimos para que seja possível que a Secretaria Municipal de Educação (SME) localize imóveis para criação de CEIs**
+Que **possibilita o cadastro de imóveis para que seja possível que a Secretaria Municipal de Educação (SME) localize imóveis para criação de CEIs**
 
 Diferentemente da **necessidade de busca manual em portais ou imobiliárias**
 
@@ -75,7 +75,7 @@ O Cadastro de Ofertas de Imóveis é um portal que busca facilitar o processo de
 1. Painel de notificações com visualização macro de todos os cadastros realizados e respectivos status
 2. Página detalhada de cadastro, com visualização automática de demanda, georreferenciamento, possibilidade de edição, atualização de status, download/upload de relatórios COMAPRE
 3. Filtros para facilitar busca de cadastros no sistema e exportação do cadastro com links anexados para Excel
-4. Disparo automático de e-mails sempre que o status do cadastro for atualizado
+4. Disparo automático de e-mails para os cadastrantes sempre que o status do cadastro for atualizado
 5. Possibilidade de edição do formulário de cadastro no próprio sistema pelos servidores da SME
 6. Visualização de relatórios e dashboars com informações gerenciais
 
@@ -92,6 +92,8 @@ O Cadastro de Ofertas de Imóveis é um portal que busca facilitar o processo de
 ## Roadmap
 
 - Apromoramento de paineis gerenciais
+- Adequação para LGPD
+- Liberação do sistema para outras secretarias
 
 # Sobre o Time
 
