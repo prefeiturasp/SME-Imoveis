@@ -3,17 +3,19 @@ version: '3.1'
 
 services:
   db:
+    container_name: postgres_imoveis
     image: postgres:11.2-alpine
     restart: always
     env_file:
       - .env
     volumes:
       - ./data-db:/var/lib/postgresql/data
-    
+
   redis:
+    container_name: redis_imoveis
     image: redis:5.0.5-alpine
     restart: always
-  
+
   nginx:
     image: nginx:latest
     restart: always
@@ -42,7 +44,7 @@ services:
     restart: always
     build:
       context: ./BackEnd
-      dockerfile: ./Dockerfile    
+      dockerfile: ./Dockerfile
     command: "gunicorn sme_ofertaimoveis.config.wsgi:application --bind=0.0.0.0:8000 -w 9"
     volumes:
       - ./data-static:/code/static
@@ -59,7 +61,7 @@ services:
     restart: always
     build:
       context: ./BackEnd
-      dockerfile: ./Dockerfile    
+      dockerfile: ./Dockerfile
     command: "celery -A sme_ofertaimoveis.config worker -l info"
     volumes:
       - ./data-static:/code/static
