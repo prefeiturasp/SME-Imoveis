@@ -165,23 +165,23 @@ Contribuições são **super bem vindas**! Se você tem vontade de construir o P
 $ git submodule init
 ```
 
-1. Na pasta principal, digite o comando para atualizar os submodulos do projeto:
+2. Na pasta principal, digite o comando para atualizar os submodulos do projeto:
 
 ```
 $ git submodule update
 ```
 
-1. Na pasta principal, copiar o conteudo do arquivo `env.sample` para o arquivo `.env`
-1. Na pasta BackEnd, copiar o conteudo do arquivo `env.sample` para o arquivo `.env`
-1. Na pasta BackEnd, editar o conteudo do arquivo `sme_ofertaimoveis/config/settings/base.py` na linha 15:
+3. Na pasta principal, copiar o conteudo do arquivo `env.sample` para o arquivo `.env`
+4. Na pasta BackEnd, copiar o conteudo do arquivo `env.sample` para o arquivo `.env`
+5. Na pasta BackEnd, editar o conteudo do arquivo `sme_ofertaimoveis/config/settings/base.py` na linha 15:
 
 ```
 READ_DOT_ENV_FILE = env.bool("DJANGO_READ_DOT_ENV_FILE", default=True)
 ```
 
-1. Na pasta FrontEnd, copiar o conteudo do arquivo `ENV_SAMPLE` para o arquivo `.env`
-1. Alterar as configurações dos arquivos criados nos tres passos anteriores conforme o ambiente de instalação desejado
-1. Após subir o backend, entrar no admin do mesmo e configurar as credenciais de email
+6. Na pasta FrontEnd, copiar o conteudo do arquivo `ENV_SAMPLE` para o arquivo `.env`
+7. Alterar as configurações dos arquivos criados nos tres passos anteriores conforme o ambiente de instalação desejado
+8. Após subir o backend, entrar no admin do mesmo e configurar as credenciais de email
 
 ## Deploy
 
