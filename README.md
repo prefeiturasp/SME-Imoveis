@@ -180,7 +180,7 @@ READ_DOT_ENV_FILE = env.bool("DJANGO_READ_DOT_ENV_FILE", default=True)
 ```
 
 6. Na pasta FrontEnd, copiar o conteudo do arquivo `ENV_SAMPLE` para o arquivo `.env`
-7. Alterar as configurações dos arquivos criados nos tres passos anteriores conforme o ambiente de instalação desejado
+7. Alterar as configurações dos arquivos criados nos passos anteriores conforme o ambiente de instalação desejado
 8. Após subir o backend, entrar no admin do mesmo e configurar as credenciais de email
 
 ## Deploy
@@ -197,8 +197,20 @@ $ docker-compose build
 $ docker-compose up -d
 ```
 
+### Migrate Database
+
+```
+$ docker-compose exec sme-backend_imoveis python manage.py migrate
+```
+
 ### Set DataBase e Static File
 
 ```
 $ ./scripts/start_env_db_static.sh
+```
+
+### Set Fixtures
+
+```
+$ docker-compose exec sme-backend_imoveis python manage.py loaddata sme_ofertaimoveis/dados_comuns/fixtures/
 ```
