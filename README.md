@@ -212,5 +212,17 @@ $ sudo ./scripts/start_env_db_static.sh
 ### Set Fixtures
 
 ```
-$ sudo docker-compose exec backend python manage.py loaddata sme_ofertaimoveis/dados_comuns/fixtures/
+$ sudo docker-compose exec backend python manage.py loaddata sme_ofertaimoveis/dados_comuns/fixtures/dres.json
+```
+
+```
+$ sudo docker-compose exec backend python manage.py loaddata sme_ofertaimoveis/dados_comuns/fixtures/subprefeituras.json
+```
+
+```
+$ sudo docker-compose exec backend python manage.py loaddata sme_ofertaimoveis/dados_comuns/fixtures/distritos.json
+```
+
+```
+$ sudo docker-compose exec backend python manage.py loaddata sme_ofertaimoveis/dados_comuns/fixtures/setores.json
 ```
