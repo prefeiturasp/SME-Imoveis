@@ -157,7 +157,7 @@ Depois de um ano de uso da versão 1.0 da plataforma, identificou-se a necessida
 
 Contribuições são **super bem vindas**! Se você tem vontade de construir o Portal Cadastro de Oferta de Imóveis conosco, veja o nosso [guia de contribuição](./CONTRIBUTING.md) onde explicamos detalhadamente como trabalhamos e de que formas você pode nos ajudar a alcançar nossos objetivos. Lembrando que todos devem seguir  nosso [código de conduta](./CODEOFCONDUCT.md).
 
-# Instalação
+# Instalação-e-Configuração
 
 ## Configuração
 
