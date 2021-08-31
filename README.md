@@ -200,7 +200,7 @@ $ sudo docker-compose up -d
 ### Migrate Database
 
 ```
-$ sudo docker-compose exec sme-backend_imoveis python manage.py migrate
+$ sudo docker-compose exec backend python manage.py migrate
 ```
 
 ### Set DataBase e Static File
@@ -212,5 +212,5 @@ $ sudo ./scripts/start_env_db_static.sh
 ### Set Fixtures
 
 ```
-$ sudo docker-compose exec sme-backend_imoveis python manage.py loaddata sme_ofertaimoveis/dados_comuns/fixtures/
+$ sudo docker-compose exec backend python manage.py loaddata sme_ofertaimoveis/dados_comuns/fixtures/
 ```
