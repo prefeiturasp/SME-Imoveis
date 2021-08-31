@@ -172,45 +172,43 @@ $ git submodule update
 ```
 
 3. Na pasta principal, copiar o conteudo do arquivo `env.sample` para o arquivo `.env`
-4. Na pasta BackEnd, copiar o conteudo do arquivo `env.sample` para o arquivo `.env`
-5. Na pasta BackEnd, editar o conteudo do arquivo `sme_ofertaimoveis/config/settings/base.py` na linha 15:
+4. Na pasta BackEnd, editar o conteudo do arquivo `sme_ofertaimoveis/config/settings/base.py` na linha 15:
 
 ```
 READ_DOT_ENV_FILE = env.bool("DJANGO_READ_DOT_ENV_FILE", default=True)
 ```
 
-6. Na pasta FrontEnd, copiar o conteudo do arquivo `ENV_SAMPLE` para o arquivo `.env`
-7. Alterar as configurações dos arquivos criados nos passos anteriores conforme o ambiente de instalação desejado
-8. Após subir o backend, entrar no admin do mesmo e configurar as credenciais de email
+5. Alterar as configurações dos arquivos criados nos passos anteriores conforme o ambiente de instalação desejado
+6. Após subir o backend, entrar no admin do mesmo e configurar as credenciais de email
 
 ## Deploy
 
 ### Build dockers
 
 ```
-$ docker-compose build
+$ sudo docker-compose build
 ```
 
 ### UP dockers
 
 ```
-$ docker-compose up -d
+$ sudo docker-compose up -d
 ```
 
 ### Migrate Database
 
 ```
-$ docker-compose exec sme-backend_imoveis python manage.py migrate
+$ sudo docker-compose exec sme-backend_imoveis python manage.py migrate
 ```
 
 ### Set DataBase e Static File
 
 ```
-$ ./scripts/start_env_db_static.sh
+$ sudo ./scripts/start_env_db_static.sh
 ```
 
 ### Set Fixtures
 
 ```
-$ docker-compose exec sme-backend_imoveis python manage.py loaddata sme_ofertaimoveis/dados_comuns/fixtures/
+$ sudo docker-compose exec sme-backend_imoveis python manage.py loaddata sme_ofertaimoveis/dados_comuns/fixtures/
 ```
